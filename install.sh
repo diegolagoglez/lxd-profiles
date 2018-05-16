@@ -5,7 +5,7 @@ if ! type lxc >/dev/null; then
 	exit 1
 fi
 
-echo "NOTICE: This script DOES NOT install any profile; it only generates commands to manually install them."
+echo "NOTICE: This script DOES NOT install any profile; it only generates commands to manually install them." >&2
 
 for profile in $(find . -maxdepth 1 -name '*.yaml' -type f -printf '%f\n'); do
 	profile_name=$(sed 's/\.yaml//g' <<< $profile)
