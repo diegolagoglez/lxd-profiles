@@ -2,7 +2,7 @@
 
 Set of useful [LXD](https://linuxcontainers.org/lxd/) profiles.
 
-*NOTICE*: Please, remember that some profiles are templates that must be edited before adding them to LXD.
+**NOTICE**: Please, remember that some profiles are templates that must be edited before adding them to LXD.
 
 ## Profiles
 
