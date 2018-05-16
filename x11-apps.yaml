@@ -1,0 +1,10 @@
+config:
+  environment.DISPLAY: :0
+description: Run X11 applications inside a container
+devices:
+  x11-socket:
+    path: /tmp/.X11-unix/
+    source: /tmp/.X11-unix/
+    type: disk
+name: x11-apps
+
