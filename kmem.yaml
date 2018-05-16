@@ -1,0 +1,11 @@
+name: kmem
+config: {}
+description: "Profile to access host's memory (read only; mounted at /dev/mem)"
+devices:
+  /dev/mem:
+    uid: "0"
+    gid: "0"
+    mode: "0640"
+    path: /dev/mem
+    type: unix-char
+
