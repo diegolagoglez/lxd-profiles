@@ -1,0 +1,9 @@
+name: selinux
+config: {}
+description: "SELinux filesystem (readonly)"
+devices:
+  selinux-fs:
+    path: /sys/fs/selinux/
+    source: /sys/fs/selinux/
+    type: disk
+
