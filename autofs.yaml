@@ -1,0 +1,14 @@
+name: autofs
+description: "Allow autofs tools to work properly"
+config:
+  raw.lxc: lxc.aa_profile=unconfined
+devices:
+  autofs:
+    path: /dev/autofs
+    source: /dev/autofs
+    type: disk
+  fuse:
+    path: /dev/fuse
+    source: /dev/fuse
+    type: disk
+
