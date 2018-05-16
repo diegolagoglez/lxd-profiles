@@ -1,0 +1,8 @@
+config:
+  environment.http_proxy: YOUR_HTTP_PROXY_ADDRESS
+  environment.https_proxy: YOUR_HTTPS_PROXY_ADDRESS
+  environment.ftp_proxy: YOUR_FTP_PROXY_ADDRESS
+description: Environment variables to set a proxy
+devices: {}
+name: proxy
+
