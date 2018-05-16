@@ -1,0 +1,9 @@
+config: {}
+description: Profile with an ethernet interface with macvlan type
+devices:
+  __DEVICE_NAME__:
+    nictype: macvlan
+    parent: __HOST_DEVICE__
+    type: nic
+name: macvlan
+
