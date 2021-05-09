@@ -7,6 +7,7 @@ Set of useful [LXD](https://linuxcontainers.org/lxd/) profiles.
 ## Profiles
 
 * `autofs.yaml`: Profile to allow autofs tools to work properly.
+* `docker.yaml`: Allow to run privileged Docker containers inside LXD.
 * `kmem.yaml`: Profile to allow containers to access host's memory (read only).
 * `macvlan.yaml`: Profile to add an ethernet interface to containers to get a public IP.
 * `proxy.yaml`: Profile to set environment variables to set a Proxy Server.
@@ -55,3 +56,4 @@ user@host ~ $ lxc profile list
 user@host ~ $
 
 ```
+

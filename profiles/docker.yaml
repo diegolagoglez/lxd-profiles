@@ -1,0 +1,13 @@
+config:
+  raw.lxc: |-
+    lxc.cgroup.devices.allow = a
+    lxc.mount.auto = proc:rw sys:rw cgroup:rw
+    lxc.apparmor.profile = unconfined
+    lxc.cap.drop =
+  security.nesting: "true"
+  security.privileged: "true"
+description: ""
+devices: {}
+name: docker
+used_by:
+- /1.0/instances/xenial-docker
